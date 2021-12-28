@@ -4,6 +4,9 @@ Chatman is a machine-learning based chatbot library build in PHP. It can generat
 
 Read [Documentation](https://php-chatman.netlify.app)
 <br />
+<br />
+
+## Installation
 
 First make sure your system has composer installed.
 
