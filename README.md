@@ -52,6 +52,7 @@ composer require yousuf/chatman
 }
 ```
 <br />
+
 ## Example Code : 
 
 ```php
