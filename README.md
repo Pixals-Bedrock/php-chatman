@@ -4,6 +4,7 @@ Chatman is a machine-learning based chatbot library build in PHP. It can generat
 
 Read [Documentation](https://php-chatman.netlify.app)
 
+
 First make sure your system has composer installed.
 
 ```
@@ -12,6 +13,7 @@ composer require yousuf/chatman
 
 >If you get any error like this :
 
+\
 ```
 Your requirements could not be resolved to an installable set of packages.
 
@@ -22,14 +24,15 @@ Problem 1
 
 >Then run these commands : 
 
+
 ```
 composer require writecrow/lemmatizer:dev-master
 composer require yousuf/chatman
 ```
+\
 
 
-
-##Training Dataset : 
+## Training Dataset : 
 
 ```
 {
@@ -47,7 +50,7 @@ composer require yousuf/chatman
 }
 ```
 
-##Example Code : 
+## Example Code : 
 
 ```
 require_once __DIR__ . '/vendor/autoload.php';
