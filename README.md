@@ -3,17 +3,18 @@
 Chatman is a machine-learning based chatbot library build in PHP. It can generate responses by learning the conversations. Chatman is very easy to use. It can be used for generating auto responses for social media, customer support, ecommerce website, personal fun etc.
 
 Read [Documentation](https://php-chatman.netlify.app)
-
+<br />
 
 First make sure your system has composer installed.
 
 ```
 composer require yousuf/chatman
 ```
+<br />
 
 >If you get any error like this :
 
-\
+
 ```
 Your requirements could not be resolved to an installable set of packages.
 
@@ -21,6 +22,7 @@ Problem 1
 - Root composer.json requires yousuf/chatman ^1.0 -> satisfiable by yousuf/chatman[v1.0.0].
 - yousuf/chatman v1.0.0 requires writecrow/lemmatizer dev-master -> found writecrow/lemmatizer[dev-master] but it does not match your minimum-stability.
 ```
+<br />
 
 >Then run these commands : 
 
@@ -29,12 +31,12 @@ Problem 1
 composer require writecrow/lemmatizer:dev-master
 composer require yousuf/chatman
 ```
-\
 
+<br />
 
 ## Training Dataset : 
 
-```
+```json
 {
 "intents": [
 
@@ -49,10 +51,10 @@ composer require yousuf/chatman
 }]
 }
 ```
-
+<br />
 ## Example Code : 
 
-```
+```php
 require_once __DIR__ . '/vendor/autoload.php';
 
 use Chatman\BotWithPatterns;
